@@ -5,11 +5,12 @@ fetch("./data.json")
   .then((data) => {
     var textarea = document.getElementById("textarea");
 
-    if (textarea.value === data.blacklist) {
+    if (data.blacklist.includes(textarea.value)) {
       textarea.style.backgroundColor = "red";
     } else {
       textarea.style.backgroundColor = "green";
     }
+    
   });
 
 }
