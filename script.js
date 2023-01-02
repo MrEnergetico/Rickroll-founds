@@ -5,7 +5,7 @@ fetch("./data.json")
   .then((data) => {
     var textarea = document.getElementById("textarea");
 
-    if (textarea.value === data.valore) {
+    if (textarea.value === data.blacklist) {
       textarea.style.backgroundColor = "red";
     } else {
       textarea.style.backgroundColor = "green";
