@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(161, 82, 235);
+}
+
+/*elementi*/
+
+.bg{
+    background-color: rgb(132, 1, 255);
+    height: 500px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 550px;
+    border-radius: 10px;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-left: 47px;
+}
+
+.string {
+    background-color: green;
+    height: 50px;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+    resize: none;
+    text-align: center;
+}
