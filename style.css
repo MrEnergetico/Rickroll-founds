@@ -34,3 +34,14 @@ body {
     resize: none;
     text-align: center;
 }
+
+.strings {
+    background-color: rgb(0, 102, 128);
+    height: 50px;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    margin-left: 20px;
+    resize: none;
+    text-align: center;
+}
