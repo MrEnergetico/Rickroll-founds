@@ -27,4 +27,4 @@ function Link() {
   }
 }
 
-textarea.addEventListener("input", Link);
+textareas.addEventListener("input", Link);
